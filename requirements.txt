@@ -1,0 +1,14 @@
+# LLM Evaluation System - Dependencies
+
+# Core dependencies
+python-dotenv==1.2.2          # Environment variable management
+pandas==3.0.1                 # Data manipulation and Excel export
+openpyxl==3.1.5               # Excel file writing
+
+# API and async
+openai==2.30.0                # Nebius Token Factory API client (OpenAI compatible)
+httpx==0.28.1                 # Async HTTP client (for LLMService)
+pydantic==2.12.5              # Data validation with Pydantic models
+
+# Optional but useful
+numpy==2.4.3                  # Numerical operations (pandas dependency)
