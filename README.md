@@ -4,6 +4,13 @@
 
 ![Python](https://img.shields.io/badge/python-3.11+-blue) ![OpenAI SDK](https://img.shields.io/badge/OpenAI%20SDK-Nebius%20Token%20Factory-black) ![Pydantic](https://img.shields.io/badge/Pydantic-structured%20outputs-e92063) ![pandas](https://img.shields.io/badge/pandas-xlsx-150458)
 
+**Notebooks**: for the best reading experience, open them in nbviewer (full-page rendering) or Colab:
+
+| Notebook | Read | Run |
+|---|---|---|
+| `product_description_eval.ipynb` | [![nbviewer](https://img.shields.io/badge/view-nbviewer-orange?logo=jupyter)](https://nbviewer.org/github/bloch-ai-engineering/llm-copywriter-eval/blob/main/notebooks/product_description_eval.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/bloch-ai-engineering/llm-copywriter-eval/blob/main/notebooks/product_description_eval.ipynb) |
+
+
 ## The problem
 
 An online store wants to auto-write product descriptions for 50 products. Before shipping, you need to know if the copy is any good. That means a rubric, a baseline, a way to improve it, and a way to evaluate it at scale without a human reading every line.
